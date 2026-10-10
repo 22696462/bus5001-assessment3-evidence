@@ -1,0 +1,20 @@
+[
+  {
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "valid_json": true,
+    "seconds": 28.5,
+    "output": "{\"issues\":[{\"issue_category\":\"WATER_LEAK\",\"urgency\":\"HIGH\",\"sentiment\":\"NEGATIVE\",\"followup_required\":\"Y\",\"recommended_team\":\"FACILITIES\",\"escalation_reason\":\"none\",\"data_sensitivity_risk\":\"NONE\",\"confidence\":\"HIGH\",\"brief_summary\":\"Water leak in Building C\"}]}"
+  },
+  {
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "valid_json": true,
+    "seconds": 12.0,
+    "output": "{\"issues\":[{\"issue_category\":\"SUPPLIER_COMPLIANCE\",\"urgency\":\"MEDIUM\",\"sentiment\":\"NEGATIVE\",\"followup_required\":\"Y\",\"recommended_team\":\"SUSTAINABILITY\",\"escalation_reason\":\"none\",\"data_sensitivity_risk\":\"NONE\",\"confidence\":\"HIGH\",\"brief_summary\":\"Supplier may not meet sustainability policy\"}]}"
+  },
+  {
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "valid_json": true,
+    "seconds": 12.4,
+    "output": "{\"issues\":[{\"issue_category\":\"ACCESSIBILITY_BARRIER\",\"urgency\":\"MEDIUM\",\"sentiment\":\"NEGATIVE\",\"followup_required\":\"Y\",\"recommended_team\":\"ACCESSIBILITY_AND_INCLUSION\",\"escalation_reason\":\"none\",\"data_sensitivity_risk\":\"NONE\",\"confidence\":\"HIGH\",\"brief_summary\":\"Accessible entrance near main building blocked for two days.\"}]}"
+  }
+]

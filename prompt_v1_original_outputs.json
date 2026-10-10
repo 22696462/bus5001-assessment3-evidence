@@ -1,0 +1,20 @@
+[
+  {
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "valid_json": true,
+    "seconds": 12.8,
+    "output": "{\"issue_category\": \"Facilities\", \"urgency\": \"LOW\", \"sentiment\": \"NEGATIVE\", \"followup_required\": \"Y\", \"recommended_team\": \"Facilities Team\", \"escalation_reason\": \"Water Leak\", \"data_sensitivity_risk\": \"Low\", \"brief_summary\": \"Water leak in Building C\"}"
+  },
+  {
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "valid_json": true,
+    "seconds": 10.0,
+    "output": "{\"issue_category\": \"ESG\", \"urgency\": \"MEDIUM\", \"sentiment\": \"NEGATIVE\", \"followup_required\": \"Y\", \"recommended_team\": \"Sustainability Team\", \"escalation_reason\": \"Non-compliance with sustainability policy\", \"data_sensitivity_risk\": \"Low\", \"brief_summary\": \"Supplier non-compliance with sustainability policy\"}"
+  },
+  {
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "valid_json": true,
+    "seconds": 9.6,
+    "output": "{\"issue_category\": \"Facility\", \"urgency\": \"LOW\", \"sentiment\": \"NEGATIVE\", \"followup_required\": \"Y\", \"recommended_team\": \"Facilities Management\", \"escalation_reason\": \"Blocked entrance\", \"data_sensitivity_risk\": \"N\", \"brief_summary\": \"Accessible entrance near main building blocked for two days.\"}"
+  }
+]
